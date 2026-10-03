@@ -1,0 +1,404 @@
+{
+  "dataset": "electricity-retail-packages",
+  "description": "Household electricity package offers collected from retailer websites (no public API exists).",
+  "scraped_at": "2026-10-03T17:14:12+00:00",
+  "sources": {
+    "Altra Energy": "https://example.test/altra-energy/electricity",
+    "Terminal Energy": "https://example.test/terminal-energy/electricity",
+    "Elm Energy": "https://example.test/elm-energy/electricity",
+    "Solarix": "https://example.test/solarix/electricity",
+    "VoltEdge": "https://example.test/voltedge"
+  },
+  "records": [
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Term fixed price",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "Customer favourite",
+      "features": [
+        "Price fixed for the whole term",
+        "Contract term 9/12/36 months",
+        "Long-term certainty"
+      ],
+      "price_fields": {
+        "Day price": "13.4 c/kWh",
+        "Night price": "11.4 c/kWh",
+        "Monthly fee": "1.50 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Flex Choice",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "Smart choice",
+      "features": [
+        "Exchange price or fixed base price + margin",
+        "Freedom to choose the pricing model every month",
+        "Open-ended electricity package"
+      ],
+      "price_fields": {
+        "Margin": "0.46 c/kWh",
+        "Monthly fee": "2.02 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Flexible Fix",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "Smart choice",
+      "features": [
+        "Price fixed for 12 months",
+        "Option to reduce the fixed price with smart consumption",
+        "Lower risk than an exchange package, more flexible than a fixed package"
+      ],
+      "price_fields": {
+        "Day price": "14.3 c/kWh",
+        "Night price": "14.3 c/kWh",
+        "Monthly fee": "2.00 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Fixed Volume",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "Smart choice",
+      "features": [
+        "Joint invoice with GridCo network services",
+        "Fixed monthly fee for an agreed volume for 12 months",
+        "You only pay extra for the kWh consumed above the volume"
+      ],
+      "price_fields": {
+        "Consumption price within the volume": "0 c/kWh",
+        "Volume covered by the monthly fee": "200 kWh",
+        "Price for consumption above the volume": "15.5 c/kWh",
+        "Monthly fee": "24.00 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Stress-Free",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "Smart choice",
+      "features": [
+        "Price fixed month by month",
+        "Lower risk than an exchange package",
+        "Open-ended contract"
+      ],
+      "price_fields": {
+        "Base price": "15.9 c/kWh",
+        "Margin": "0.723 c/kWh",
+        "Monthly fee": "2.06 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Virtual Battery 3 kWh",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "Smart choice",
+      "features": [
+        "Battery-stored electricity price and exchange price + margin",
+        "Get a share of a virtual battery without any investment",
+        "Open-ended electricity package"
+      ],
+      "price_fields": {
+        "Margin": "0.4 c/kWh",
+        "Monthly fee": "15.99 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Fixed-price electricity",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "",
+      "features": [
+        "Set price (day and night metered separately)",
+        "6-month price period",
+        "No early termination fee"
+      ],
+      "price_fields": {
+        "Day price": "17.9 c/kWh",
+        "Night price": "15.0 c/kWh",
+        "Monthly fee": "2.02 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Home Package electricity",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "",
+      "features": [
+        "Exchange price + zero margin",
+        "Price changes every 15 minutes",
+        "Open-ended contract"
+      ],
+      "price_fields": {
+        "Last month's average exchange price": "8.23 c/kWh",
+        "Monthly fee": "5.99 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Altra Energy",
+      "url": "https://example.test/altra-energy/electricity",
+      "package_name": "Exchange-priced electricity",
+      "subtitle": "+ joint invoice with GridCo network services",
+      "badge": "",
+      "features": [
+        "Exchange price + margin",
+        "Open-ended contract",
+        "You steer your own consumption"
+      ],
+      "price_fields": {
+        "Margin": "0.47 c/kWh",
+        "Last month's average exchange price": "8.23 c/kWh",
+        "Monthly fee": "2.02 €"
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Terminal Energy",
+      "url": "https://example.test/terminal-energy/electricity",
+      "package_name": "Fixed price Green service",
+      "subtitle": "",
+      "badge": "Green service",
+      "features": [
+        "Single-tariff",
+        "Dual-tariff",
+        "6 months",
+        "12 months",
+        "36 months"
+      ],
+      "price_fields": {
+        "Monthly fee": "1.91 €",
+        "Includes 24% VAT": "",
+        "Sellback to the grid Margin": "2.0 c/kWh"
+      },
+      "period_variants": {
+        "3": {
+          "price": "9.92 c/kWh",
+          "text": "9.92 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        },
+        "6": {
+          "price": "16.918 c/kWh",
+          "text": "16.918 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        },
+        "12": {
+          "price": "15.004 c/kWh",
+          "text": "15.004 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        },
+        "36": {
+          "price": "12.127 c/kWh",
+          "text": "12.127 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        }
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Terminal Energy",
+      "url": "https://example.test/terminal-energy/electricity",
+      "package_name": "15-minute exchange price Green service",
+      "subtitle": "",
+      "badge": "Green service",
+      "features": [],
+      "price_fields": {
+        "Margin": "0.744 c/kWh",
+        "Contract period": "Open-ended",
+        "Monthly fee": "1.91 €",
+        "Includes 24% VAT": "",
+        "Sellback to the grid Margin": "2.0 c/kWh"
+      },
+      "period_variants": {},
+      "description_raw": "Exchange price + margin If you steer your electricity consumption and want to benefit from it as much as possible. Exchange price updated every 15 minutes."
+    },
+    {
+      "seller": "Terminal Energy",
+      "url": "https://example.test/terminal-energy/electricity",
+      "package_name": "Fixed price",
+      "subtitle": "",
+      "badge": "",
+      "features": [
+        "Single-tariff",
+        "Dual-tariff",
+        "6 months",
+        "12 months",
+        "36 months"
+      ],
+      "price_fields": {
+        "Monthly fee": "1.91 €",
+        "Includes 24% VAT": "",
+        "Sellback to the grid Margin": "2.0 c/kWh"
+      },
+      "period_variants": {
+        "3": {
+          "price": "9.796 c/kWh",
+          "text": "9.796 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        },
+        "6": {
+          "price": "16.794 c/kWh",
+          "text": "16.794 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        },
+        "12": {
+          "price": "14.88 c/kWh",
+          "text": "14.88 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        },
+        "36": {
+          "price": "12.0 c/kWh",
+          "text": "12.0 c/kWh If you cannot or do not want to steer your consumption - the same price applies every hour. Production price + margin"
+        }
+      },
+      "description_raw": ""
+    },
+    {
+      "seller": "Terminal Energy",
+      "url": "https://example.test/terminal-energy/electricity",
+      "package_name": "15-minute exchange price",
+      "subtitle": "",
+      "badge": "",
+      "features": [],
+      "price_fields": {
+        "Margin": "0.54 c/kWh",
+        "Contract period": "Open-ended",
+        "Monthly fee": "1.91 €",
+        "Includes 24% VAT": "",
+        "Sellback to the grid Margin": "2.0 c/kWh"
+      },
+      "period_variants": {},
+      "description_raw": "Exchange price + margin If you steer your electricity consumption and want to benefit from it as much as possible. Exchange price updated every 15 minutes."
+    },
+    {
+      "seller": "Elm Energy",
+      "url": "https://example.test/elm-energy/electricity",
+      "package_name": "FIXED PACKAGE",
+      "subtitle": "",
+      "badge": "",
+      "features": [
+        "Contract term: 6, 12, 24, 36 months",
+        "Price (incl. VAT): from 13.22 c/kWh"
+      ],
+      "price_fields": {},
+      "description_raw": "With a fixed package the electricity price stays the same for the whole contract term, exchange fluctuations do not affect the bill, and costs are easier to plan. We offer single- and dual-tariff pricing variants. With the dual-tariff variant day and night electricity consumption are metered separately. With the single-tariff variant one agreed price applies to every period of the contract. A single-tariff package suits you better if most of the electricity is consumed during the day. A dual-tariff price can be chosen if the site has a meter that measures day and night consumption separately. The day price applies Monday to Friday (except public holidays) from 07:00 to 22:00. The night price applies Monday to Friday from 22:00 to 07:00 and all day on Saturdays, Sundays and public holidays."
+    },
+    {
+      "seller": "Elm Energy",
+      "url": "https://example.test/elm-energy/electricity",
+      "package_name": "VARIABLE PACKAGE",
+      "subtitle": "",
+      "badge": "",
+      "features": [
+        "Contract term: open-ended",
+        "Price (incl. VAT): exchange price + 0.67 c/kWh"
+      ],
+      "price_fields": {},
+      "description_raw": "For a long time variable pricing was considered cheaper than a fixed price, but recent experience has shown that the exchange price can just as well rise as fall, so one should be prepared for both scenarios. In a variable-price package the electricity price depends on the power exchange price. A fixed sales margin is added on top of the exchange price."
+    },
+    {
+      "seller": "Solarix",
+      "url": "https://example.test/solarix/electricity",
+      "package_name": "Zero-margin renewable exchange package — tier S",
+      "subtitle": "Annual consumption up to 3 000 kWh",
+      "badge": "",
+      "features": [
+        "Margin 0€",
+        "Buyback margin 1 c/kWh",
+        "Contract term Open-ended",
+        "Monthly fee tier S: up to 3 000 kWh -> 3 €/month"
+      ],
+      "price_fields": {
+        "Monthly fee": "3 €",
+        "Margin": "0 c/kWh",
+        "Buyback margin": "1 c/kWh"
+      },
+      "description_raw": "100% certified zero-margin renewable electricity delivered to your home. The monthly fee depends on your electricity consumption over the last 12 months: S / up to 3 000 kWh 3€ M / 3 001-6 000 kWh 4€ L / 6 001-12 000 kWh 6€ XL / over 12 000 kWh 9€ Margin 0€ Buyback margin 1 c/kWh Contract term Open-ended Frequently asked questions What does the price consist of? The price consists of the electricity consumption cost according to the power exchange price and the Solarix monthly fee (based on the last 12 months of consumption: 3€, 4€, 6€ or 9€). Selling back happens at the exchange price with a service fee of 1 c/kWh (incl. How is the package and the monthly fee determined?"
+    },
+    {
+      "seller": "Solarix",
+      "url": "https://example.test/solarix/electricity",
+      "package_name": "Zero-margin renewable exchange package — tier M",
+      "subtitle": "Annual consumption 3 001-6 000 kWh",
+      "badge": "",
+      "features": [
+        "Margin 0€",
+        "Buyback margin 1 c/kWh",
+        "Contract term Open-ended",
+        "Monthly fee tier M: 3 001-6 000 kWh -> 4 €/month"
+      ],
+      "price_fields": {
+        "Monthly fee": "4 €",
+        "Margin": "0 c/kWh",
+        "Buyback margin": "1 c/kWh"
+      },
+      "description_raw": "100% certified zero-margin renewable electricity delivered to your home. The monthly fee depends on your electricity consumption over the last 12 months: S / up to 3 000 kWh 3€ M / 3 001-6 000 kWh 4€ L / 6 001-12 000 kWh 6€ XL / over 12 000 kWh 9€ Margin 0€ Buyback margin 1 c/kWh Contract term Open-ended Frequently asked questions What does the price consist of? The price consists of the electricity consumption cost according to the power exchange price and the Solarix monthly fee (based on the last 12 months of consumption: 3€, 4€, 6€ or 9€). Selling back happens at the exchange price with a service fee of 1 c/kWh (incl. How is the package and the monthly fee determined?"
+    },
+    {
+      "seller": "Solarix",
+      "url": "https://example.test/solarix/electricity",
+      "package_name": "Zero-margin renewable exchange package — tier L",
+      "subtitle": "Annual consumption 6 001-12 000 kWh",
+      "badge": "",
+      "features": [
+        "Margin 0€",
+        "Buyback margin 1 c/kWh",
+        "Contract term Open-ended",
+        "Monthly fee tier L: 6 001-12 000 kWh -> 6 €/month"
+      ],
+      "price_fields": {
+        "Monthly fee": "6 €",
+        "Margin": "0 c/kWh",
+        "Buyback margin": "1 c/kWh"
+      },
+      "description_raw": "100% certified zero-margin renewable electricity delivered to your home. The monthly fee depends on your electricity consumption over the last 12 months: S / up to 3 000 kWh 3€ M / 3 001-6 000 kWh 4€ L / 6 001-12 000 kWh 6€ XL / over 12 000 kWh 9€ Margin 0€ Buyback margin 1 c/kWh Contract term Open-ended Frequently asked questions What does the price consist of? The price consists of the electricity consumption cost according to the power exchange price and the Solarix monthly fee (based on the last 12 months of consumption: 3€, 4€, 6€ or 9€). Selling back happens at the exchange price with a service fee of 1 c/kWh (incl. How is the package and the monthly fee determined?"
+    },
+    {
+      "seller": "Solarix",
+      "url": "https://example.test/solarix/electricity",
+      "package_name": "Zero-margin renewable exchange package — tier XL",
+      "subtitle": "Annual consumption over 12 000 kWh",
+      "badge": "",
+      "features": [
+        "Margin 0€",
+        "Buyback margin 1 c/kWh",
+        "Contract term Open-ended",
+        "Monthly fee tier XL: over 12 000 kWh -> 9 €/month"
+      ],
+      "price_fields": {
+        "Monthly fee": "9 €",
+        "Margin": "0 c/kWh",
+        "Buyback margin": "1 c/kWh"
+      },
+      "description_raw": "100% certified zero-margin renewable electricity delivered to your home. The monthly fee depends on your electricity consumption over the last 12 months: S / up to 3 000 kWh 3€ M / 3 001-6 000 kWh 4€ L / 6 001-12 000 kWh 6€ XL / over 12 000 kWh 9€ Margin 0€ Buyback margin 1 c/kWh Contract term Open-ended Frequently asked questions What does the price consist of? The price consists of the electricity consumption cost according to the power exchange price and the Solarix monthly fee (based on the last 12 months of consumption: 3€, 4€, 6€ or 9€). Selling back happens at the exchange price with a service fee of 1 c/kWh (incl. How is the package and the monthly fee determined?"
+    },
+    {
+      "seller": "VoltEdge",
+      "url": "https://example.test/voltedge",
+      "package_name": "Golden Electricity Package",
+      "subtitle": "Power exchange spot price + one transparent margin",
+      "badge": "",
+      "features": [
+        "Import margin 0.4 c/kWh (0.32 c/kWh + VAT)",
+        "Export margin 0.4 c/kWh",
+        "Monthly fee 0 €"
+      ],
+      "price_fields": {
+        "Margin": "0.4 c/kWh",
+        "Buyback margin": "0.4 c/kWh",
+        "Monthly fee": "0 €"
+      },
+      "description_raw": "VoltEdge - The golden energy company Golden Electricity Package. The Golden Electricity Package is spot-priced power with one transparent margin."
+    }
+  ]
+}
